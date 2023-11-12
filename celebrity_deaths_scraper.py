@@ -48,6 +48,13 @@ for year in range(2018, current_year + 1):
         logging.error(f'Error occurred for year {year}: {e}')
 
 celebrities_df = pd.DataFrame(data)
+
+# Exclude Mary Tyler Moore who is on the 2019 page but died in 2017.
+# This will also excude future edge cases like this to ensure the results are all 2018+.
+celebrities_df['deathdate'] = pd.to_datetime(celebrities_df['deathdate'])
+celebrities_df = celebrities_df[celebrities_df['deathdate'].dt.year >= 2018]
+
 celebrities_df.sort_values(by=['deathdate'], inplace=True)
 celebrities_df.to_csv('celebrity_deaths.csv', index=False)
+
 print(celebrities_df)
