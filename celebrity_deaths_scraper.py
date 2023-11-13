@@ -49,10 +49,14 @@ for year in range(2018, current_year + 1):
 
 celebrities_df = pd.DataFrame(data)
 
+celebrities_df['deathdate'] = pd.to_datetime(celebrities_df['deathdate'])
+
 # Exclude Mary Tyler Moore who is on the 2019 page but died in 2017.
 # This will also excude future edge cases like this to ensure the results are all 2018+.
-celebrities_df['deathdate'] = pd.to_datetime(celebrities_df['deathdate'])
 celebrities_df = celebrities_df[celebrities_df['deathdate'].dt.year >= 2018]
+
+# The USA Today site lists his death as Feb 2, 2023, but it's actually Feb 26
+celebrities_df.loc[celebrities_df['name'] == 'Terry Holland', 'deathdate'] = '2023-02-26'
 
 celebrities_df.sort_values(by=['deathdate'], inplace=True)
 celebrities_df.to_csv('celebrity_deaths.csv', index=False)
