@@ -58,7 +58,12 @@ celebrities_df = celebrities_df[celebrities_df['deathdate'].dt.year >= 2018]
 # The USA Today site lists his death as Feb 2, 2023, but it's actually Feb 26
 celebrities_df.loc[celebrities_df['name'] == 'Terry Holland', 'deathdate'] = '2023-02-26'
 
+# And finally remove Julian Sands, who died in January 2023 but whose body wasn't discovered until June,
+# presenting challenges for models like GPT-4 Turbo which has a knowledge cutoff of April 2023.
+celebrities_df = celebrities_df[celebrities_df['name'] != 'Julian Sands']
+
 celebrities_df.sort_values(by=['deathdate'], inplace=True)
+
 celebrities_df.to_csv('celebrity_deaths.csv', index=False)
 
 print(celebrities_df)

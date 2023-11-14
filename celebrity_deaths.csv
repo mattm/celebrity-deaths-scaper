@@ -141,14 +141,14 @@ Robert Downey Sr.,1936-06-24,2021-07-07
 Biz Markie,1964-04-08,2021-07-16
 Jackie Mason,1936-06-09,2021-07-24
 Mike Enzi,1944-02-01,2021-07-26
-Ronald Popeil,1935-05-03,2021-07-28
 Dusty Hill,1949-05-19,2021-07-28
+Ronald Popeil,1935-05-03,2021-07-28
 Richard Trumka,1949-07-24,2021-08-05
 Jane Withers,1926-04-12,2021-08-07
 Carl Thompson,1968-07-12,2021-08-09
-Maki Kaji,1951-10-08,2021-08-10
 Anthony Esposito,1943-04-23,2021-08-10
 Neal Conan,1946-11-26,2021-08-10
+Maki Kaji,1951-10-08,2021-08-10
 Joseph Walton,1935-12-15,2021-08-15
 William Freehan,1941-11-29,2021-08-19
 Rodrigue Gilbert,1941-07-01,2021-08-19
@@ -158,8 +158,8 @@ Charlie Watts,1941-06-02,2021-08-24
 Ed Asner,1929-11-15,2021-08-29
 Michail Theodorakis,1925-07-29,2021-09-02
 Willard Scott,1934-03-07,2021-09-04
-Jean-Paul Belmondo,1933-04-09,2021-09-06
 Michael K. Williams,1966-11-22,2021-09-06
+Jean-Paul Belmondo,1933-04-09,2021-09-06
 Manuel Rubén Abimael Guzmán Reynoso,1934-12-03,2021-09-11
 George Wein,1925-10-03,2021-09-13
 Norm MacDonald,1963-10-17,2021-09-14
@@ -182,17 +182,17 @@ Joseph Cleland,1942-08-24,2021-11-09
 Frederik Willem de Klerk,1936-03-18,2021-11-11
 Graeme Edge,1941-03-30,2021-11-11
 Sam Huff,1934-10-04,2021-11-13
-Stu Rasmussen,1948-09-09,2021-11-17
-Art LaFleur,1943-09-09,2021-11-17
 Dave Frishberg,1933-03-23,2021-11-17
+Art LaFleur,1943-09-09,2021-11-17
+Stu Rasmussen,1948-09-09,2021-11-17
 Peter Buck,1930-12-19,2021-11-18
 Robert Bly,1926-12-23,2021-11-21
 William Charles Virdon,1931-09-06,2021-11-23
 Stephen Sondheim,1930-03-22,2021-11-26
 Robert Lee Elder,1934-07-14,2021-11-28
 Virgil Abloh,1980-09-30,2021-11-28
-Arlene Dahl,1925-08-11,2021-11-29
 Dewey LaMarr Hoyt Jr.,1955-01-01,2021-11-29
+Arlene Dahl,1925-08-11,2021-11-29
 Bob Dole,1923-07-23,2021-12-05
 Lina Wertmüller,1928-08-14,2021-12-09
 Alfred Unser,1939-05-29,2021-12-09
@@ -222,15 +222,15 @@ Bob Saget,1956-05-17,2022-01-09
 Robert Durst,1943-04-12,2022-01-10
 Don Maynard,1935-01-25,2022-01-10
 Ronnie Spector,1943-08-10,2022-01-12
-Peter Robbins,1956-08-10,2022-01-18
 André Leon Talley,1948-10-16,2022-01-18
+Peter Robbins,1956-08-10,2022-01-18
 Meat Loaf,1947-09-27,2022-01-20
 Louie Anderson,1953-03-24,2022-01-21
 Moses J. Moseley,1991-12-24,2022-01-26
 Howard Hesseman,1940-02-27,2022-01-29
 Gerald Williams,1966-08-10,2022-02-08
-Jeremy Giambi,1974-09-30,2022-02-09
 Betty Davis,1945-07-26,2022-02-09
+Jeremy Giambi,1974-09-30,2022-02-09
 Ivan Reitman,1946-10-27,2022-02-12
 Sally Kellerman,1937-06-02,2022-02-24
 Ned Eisenberg,1957-01-13,2022-02-27
@@ -247,9 +247,9 @@ Rayfield Wright,1945-08-23,2022-04-07
 Dwayne Haskins,1997-05-03,2022-04-09
 Jack Higgins,1929-07-27,2022-04-09
 Gary Brown (NFL),1969-07-01,2022-04-10
+Cedric McMillan,1977-08-17,2022-04-12
 Gilbert Gottfried,1955-02-28,2022-04-12
 Shirley Spork,1927-05-14,2022-04-12
-Cedric McMillan,1977-08-17,2022-04-12
 Mike Bossy,1957-01-22,2022-04-14
 Liz Sheridan,1929-04-10,2022-04-15
 Daryle Lamonica,1941-07-17,2022-04-21
@@ -273,12 +273,12 @@ Billy Kametz,1987-03-22,2022-06-09
 Philip Baker Hall,1931-09-10,2022-06-12
 Tony Siragusa,1967-05-14,2022-06-22
 Mary Mara,1960-09-21,2022-06-26
-Marlin Briscoe,1945-09-10,2022-06-27
 Joe Turkel,1927-07-15,2022-06-27
+Marlin Briscoe,1945-09-10,2022-06-27
 Lenny Von Dohlen,1958-12-22,2022-07-05
 James Caan,1940-03-26,2022-07-06
-Shinzo Abe,1954-09-21,2022-07-08
 Tony Sirico,1942-07-29,2022-07-08
+Shinzo Abe,1954-09-21,2022-07-08
 Ivana Trump,1949-02-20,2022-07-14
 Rebecca Balding,1948-09-21,2022-07-18
 Paul Sorvino,1939-04-13,2022-07-25
@@ -332,7 +332,6 @@ Ken Block,1967-11-21,2023-01-02
 Adam Rich,1968-10-12,2023-01-07
 Jeff Beck,1944-06-24,2023-01-10
 Lisa Marie Presley,1968-02-01,2023-01-12
-Julian Sands,1958-01-04,2023-01-13
 CJ Harris,1991-01-28,2023-01-15
 Jay Briscoe,1984-01-25,2023-01-17
 David Crosby,1941-08-14,2023-01-18
